@@ -11,7 +11,7 @@ price1.addEventListener('click', uBroke)
 let price2 = document.querySelector('.trip2price')
 
 const uWin = evt => {
-    alert("You won a free trip!  Email me us your soical.")
+    alert("You won a free trip!  Email me us your social.")
 }
 
 price2.addEventListener('click', uWin)
