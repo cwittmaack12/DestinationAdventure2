@@ -1,3 +1,150 @@
 .name {
     background-color: #ffc400 ;
+    height: 80px;
+    border: solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 300%;
+    font-family: cursive;
+    margin-left: 10%;
+    margin-right: 10%
 }
+
+.body{
+    background-image: url("./images/passport.jpg")  ;
+}
+
+.spacer{
+    margin-top: 50px;
+}
+
+.container{
+    background-color: rgb(231, 224, 215);
+    margin-left: 10%;
+    margin-right: 10%;
+    min-height: 1000px;
+}
+
+.description{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    font-family: cursive;
+    text-align: center;
+    font-size: x-large;
+
+}
+
+.topcontain{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    height: 400px;
+}
+
+.bottomcontain{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    height: 400px;
+}
+
+.trip1{
+    height: 95%;
+    width: 40%;
+    border: solid thin black;
+    background-color: #ffc400 ;
+}
+
+.trip2{
+    height: 95%;
+    width: 40%;
+    border: solid thin black;
+    background-color: #ffc400 ;
+}
+
+.trip3{
+    height: 95%;
+    width: 40%;
+    border: solid thin black;
+    background-color: #ffc400 ;
+}
+
+.trip4{
+    height: 95%;
+    width: 40%;
+    border: solid thin black;
+    background-color: #ffc400 ;
+}
+
+.pic1{
+    height: 340px;
+    width: 85%;
+    padding-left: 55px;
+    padding-top: 8px;
+}
+
+.pic2{
+    height: 340px;
+    width: 85%;
+    padding-left: 55px;
+    padding-top: 8px;
+}
+
+.pic3{
+    height: 340px;
+    width: 85%;
+    padding-left: 55px;
+    padding-top: 8px;
+}
+
+.pic4{
+    height: 340px;
+    width: 85%;
+    padding-left: 55px;
+    padding-top: 8px;
+}
+
+.trip1price{
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    font-family: cursive;
+    text-decoration: underline;
+}
+
+.trip2price{
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    font-family: cursive;
+    text-decoration: underline;
+
+}
+
+.trip3price{
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    font-family: cursive;
+    text-decoration: underline;
+
+}
+
+.trip4price{
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    font-family: cursive;
+    text-decoration: underline;
+}
+
+
+.center{
+    text-align: center;
+    font-family: cursive;
+}
+
+
+
