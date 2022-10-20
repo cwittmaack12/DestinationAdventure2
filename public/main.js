@@ -1,3 +1,5 @@
+const rollbar = require('rollbar')
+
 let price1 = document.querySelector('.trip1price')
 
 const uBroke = evt => {
@@ -11,6 +13,7 @@ price1.addEventListener('click', uBroke)
 let price2 = document.querySelector('.trip2price')
 
 const uWin = evt => {
+    
     alert("You won a free trip!  Email me us your social.")
 }
 
