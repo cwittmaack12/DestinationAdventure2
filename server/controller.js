@@ -23,8 +23,19 @@ module.exports = {
             rollbar.error('throw error')
             console.log(error);
         }
+    },
+    heyHomie: (req, res) => {
+        try{
+            heyguy();
+        } catch(error) {
+                rollbar.critical('critical error')
+                rollbar.warning('site does not exist')
+                console.log(error)
+        }  
     }
 }
+    
+
 
 
 

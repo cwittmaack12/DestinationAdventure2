@@ -18,12 +18,13 @@ app.use(express.json())
 app.use(cors())
 app.use(express.static ('public'))
 
-const {getHTML, getCSS, getJS, getError} = require('./controller')
+const {getHTML, getCSS, getJS, getError, heyHomie} = require('./controller')
 
 app.get('/', getHTML)
 app.get('/css', getCSS)
 app.get('/js', getJS)
 app.get('/hello', getError)
+app.get('/wassup', heyHomie)
 
 const port = process.env.PORT || 4040
 
