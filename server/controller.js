@@ -17,10 +17,10 @@ module.exports = {
         res.sendFile(path.join(__dirname, '../public/main.js'))
     },
     getError: (req, res) => {
-        rollbar.error('throw error')
         try{
             function32();
         } catch(error){
+            rollbar.error('throw error')
             console.log(error);
         }
     }
